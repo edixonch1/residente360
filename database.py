@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # 🔴 PEGA AQUÍ TU URL DE SUPABASE
-DATABASE_URL = "postgresql://postgres:Chingate123#@db.xxx.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres:Chingate123%23@db.xxx.supabase.co:5432/postgres"
 
 # ⚙️ Motor de base de datos
 engine = create_engine(
